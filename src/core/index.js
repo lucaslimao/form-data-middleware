@@ -64,7 +64,7 @@ module.exports = async (request, fromExpress = false) => {
             request.body = result
             request.files = files
 
-            logger.info(`[FormData Middleware][Core] Finish, ${JSON.stringify(request)}`)
+            logger.info(`[FormData Middleware][Core] Finish. `)
 
             resolve(request)
 
