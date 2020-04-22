@@ -1,10 +1,10 @@
 const core = require('../core')
 
-const express = fn => async (res, req, next) => {
+const express = async (req, res, next) => {
 
     try {
 
-        req = await core(req)
+        req = await core(req, true)
 
         return next()
 

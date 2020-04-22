@@ -1,6 +1,6 @@
 {
   "name": "form-data-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A middleware for express and AWS lambda",
   "main": "src/index.js",
   "scripts": {
